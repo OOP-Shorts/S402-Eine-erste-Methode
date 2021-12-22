@@ -9,4 +9,8 @@ public class Dog {
         this.breed = breed;
         this.age = age;
     }
+
+    public void bark() {
+        System.out.println("Bark! (My name is " + name + ". I'm a " + breed + " and I am " + age + " years old.)");
+    }
 }
